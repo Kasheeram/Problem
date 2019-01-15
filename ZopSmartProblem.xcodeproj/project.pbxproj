@@ -121,15 +121,15 @@
 			isa = PBXGroup;
 			children = (
 				89693A5D21EDA9460043049D /* AppDelegate.swift */,
-				89693A9021EDB3490043049D /* ServerInterface.swift */,
-				89693A5F21EDA9460043049D /* ViewController.swift */,
-				89693A9221EDB5510043049D /* Model.swift */,
+				89693A9821EDD4AB0043049D /* ServerInterface */,
+				89693A9721EDD49B0043049D /* Controller */,
+				89693A9621EDD4770043049D /* Model */,
+				89693A9921EDD4BE0043049D /* View */,
 				89693A6121EDA9460043049D /* Main.storyboard */,
 				89693A6721EDA9570043049D /* Assets.xcassets */,
 				89693A6921EDA9570043049D /* LaunchScreen.storyboard */,
 				89693A6C21EDA9570043049D /* Info.plist */,
 				89693A6421EDA9460043049D /* ZopSmartProblem.xcdatamodeld */,
-				89693A9421EDBE600043049D /* CollectionViewCell.swift */,
 			);
 			path = ZopSmartProblem;
 			sourceTree = "<group>";
@@ -150,6 +150,38 @@
 				89693A8221EDA9570043049D /* Info.plist */,
 			);
 			path = ZopSmartProblemUITests;
+			sourceTree = "<group>";
+		};
+		89693A9621EDD4770043049D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89693A9221EDB5510043049D /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89693A9721EDD49B0043049D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89693A5F21EDA9460043049D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		89693A9821EDD4AB0043049D /* ServerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				89693A9021EDB3490043049D /* ServerInterface.swift */,
+			);
+			name = ServerInterface;
+			sourceTree = "<group>";
+		};
+		89693A9921EDD4BE0043049D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89693A9421EDBE600043049D /* CollectionViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		D01000B04EDD28C5A13EE602 /* Pods */ = {
