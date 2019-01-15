@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B9FC04839D1A1DCF56AB64 /* Pods_ZopSmartProblem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C54ABE8225B7262650D99F /* Pods_ZopSmartProblem.framework */; };
 		89693A5E21EDA9460043049D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A5D21EDA9460043049D /* AppDelegate.swift */; };
 		89693A6021EDA9460043049D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A5F21EDA9460043049D /* ViewController.swift */; };
 		89693A6321EDA9460043049D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89693A6121EDA9460043049D /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		89693A6B21EDA9570043049D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89693A6921EDA9570043049D /* LaunchScreen.storyboard */; };
 		89693A7621EDA9570043049D /* ZopSmartProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A7521EDA9570043049D /* ZopSmartProblemTests.swift */; };
 		89693A8121EDA9570043049D /* ZopSmartProblemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A8021EDA9570043049D /* ZopSmartProblemUITests.swift */; };
+		89693A9121EDB34A0043049D /* ServerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A9021EDB3490043049D /* ServerInterface.swift */; };
+		89693A9321EDB5510043049D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A9221EDB5510043049D /* Model.swift */; };
+		89693A9521EDBE600043049D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89693A9421EDBE600043049D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D1D53665E64480877CEE39D /* Pods-ZopSmartProblem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZopSmartProblem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZopSmartProblem/Pods-ZopSmartProblem.debug.xcconfig"; sourceTree = "<group>"; };
+		3DE3E8A510F1F5E1CCF2AEFF /* Pods-ZopSmartProblem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZopSmartProblem.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZopSmartProblem/Pods-ZopSmartProblem.release.xcconfig"; sourceTree = "<group>"; };
 		89693A5A21EDA9460043049D /* ZopSmartProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZopSmartProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89693A5D21EDA9460043049D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89693A5F21EDA9460043049D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		89693A7C21EDA9570043049D /* ZopSmartProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZopSmartProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89693A8021EDA9570043049D /* ZopSmartProblemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZopSmartProblemUITests.swift; sourceTree = "<group>"; };
 		89693A8221EDA9570043049D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89693A9021EDB3490043049D /* ServerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerInterface.swift; sourceTree = "<group>"; };
+		89693A9221EDB5510043049D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		89693A9421EDBE600043049D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A9C54ABE8225B7262650D99F /* Pods_ZopSmartProblem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZopSmartProblem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B9FC04839D1A1DCF56AB64 /* Pods_ZopSmartProblem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		795B324E5756CCB9485299E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C54ABE8225B7262650D99F /* Pods_ZopSmartProblem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89693A5121EDA9460043049D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,8 @@
 				89693A7421EDA9570043049D /* ZopSmartProblemTests */,
 				89693A7F21EDA9570043049D /* ZopSmartProblemUITests */,
 				89693A5B21EDA9460043049D /* Products */,
+				D01000B04EDD28C5A13EE602 /* Pods */,
+				795B324E5756CCB9485299E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +121,15 @@
 			isa = PBXGroup;
 			children = (
 				89693A5D21EDA9460043049D /* AppDelegate.swift */,
+				89693A9021EDB3490043049D /* ServerInterface.swift */,
 				89693A5F21EDA9460043049D /* ViewController.swift */,
+				89693A9221EDB5510043049D /* Model.swift */,
 				89693A6121EDA9460043049D /* Main.storyboard */,
 				89693A6721EDA9570043049D /* Assets.xcassets */,
 				89693A6921EDA9570043049D /* LaunchScreen.storyboard */,
 				89693A6C21EDA9570043049D /* Info.plist */,
 				89693A6421EDA9460043049D /* ZopSmartProblem.xcdatamodeld */,
+				89693A9421EDBE600043049D /* CollectionViewCell.swift */,
 			);
 			path = ZopSmartProblem;
 			sourceTree = "<group>";
@@ -128,6 +152,15 @@
 			path = ZopSmartProblemUITests;
 			sourceTree = "<group>";
 		};
+		D01000B04EDD28C5A13EE602 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D1D53665E64480877CEE39D /* Pods-ZopSmartProblem.debug.xcconfig */,
+				3DE3E8A510F1F5E1CCF2AEFF /* Pods-ZopSmartProblem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89693A8521EDA9570043049D /* Build configuration list for PBXNativeTarget "ZopSmartProblem" */;
 			buildPhases = (
+				0DE5B79D75C4AB1185014C19 /* [CP] Check Pods Manifest.lock */,
 				89693A5621EDA9460043049D /* Sources */,
 				89693A5721EDA9460043049D /* Frameworks */,
 				89693A5821EDA9460043049D /* Resources */,
+				3F781C8A4AC8263C3DE61D16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +289,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DE5B79D75C4AB1185014C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZopSmartProblem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F781C8A4AC8263C3DE61D16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZopSmartProblem/Pods-ZopSmartProblem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZopSmartProblem/Pods-ZopSmartProblem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89693A5621EDA9460043049D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89693A9321EDB5510043049D /* Model.swift in Sources */,
 				89693A6021EDA9460043049D /* ViewController.swift in Sources */,
+				89693A9521EDBE600043049D /* CollectionViewCell.swift in Sources */,
+				89693A9121EDB34A0043049D /* ServerInterface.swift in Sources */,
 				89693A5E21EDA9460043049D /* AppDelegate.swift in Sources */,
 				89693A6621EDA9460043049D /* ZopSmartProblem.xcdatamodeld in Sources */,
 			);
@@ -432,6 +511,7 @@
 		};
 		89693A8621EDA9570043049D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1D53665E64480877CEE39D /* Pods-ZopSmartProblem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +529,7 @@
 		};
 		89693A8721EDA9570043049D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE3E8A510F1F5E1CCF2AEFF /* Pods-ZopSmartProblem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
